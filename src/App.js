@@ -5,6 +5,12 @@ import Card from "./components/Card";
 import Profile from "./components/Profile";
 import BaiTapComponent from "./components/BaiTapComponent/BaiTapComponent";
 import BaiTapThucHanhLayout from "./components/BaiTapThucHanhLayout/BaiTapThucHanhLayout";
+import Databinding from "./databinding/Databinding";
+import HandleEvent from "./handleEvent/HandleEvent";
+import StateDemo from "./State/StateDemo";
+import Style from "./StyleDemo/Style";
+import Example from "./State/Example";
+import BTChonXe from "./State/BTChonXe";
 
 function App() {
   return (
@@ -13,7 +19,13 @@ function App() {
       <Card />
       <Profile /> */}
       {/* <BaiTapComponent /> */}
-      <BaiTapThucHanhLayout />
+      {/* <BaiTapThucHanhLayout /> */}
+      {/* <Databinding /> */}
+      {/* <HandleEvent /> */}
+      {/* <StateDemo /> */}
+      {/* <Style /> */}
+      {/* <Example /> */}
+      <BTChonXe />
     </div>
   );
 }
