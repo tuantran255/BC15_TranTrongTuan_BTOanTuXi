@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class BTChonXe extends Component {
   state = {
-    imgSrc: "./images/CarBasic/products/black-car.jpg",
+    imgSrc: "./img/CarBasic/products/black-car.jpg",
   };
   changeCar = (source) => {
     this.setState({
@@ -21,12 +21,12 @@ export default class BTChonXe extends Component {
               className="btn btn-outline-dark d-block mb-2"
               style={{ width: 300 }}
               onClick={() => {
-                this.changeCar("./images/CarBasic/products/black-car.jpg");
+                this.changeCar("./img/CarBasic/products/black-car.jpg");
               }}
             >
               <div className="d-flex align-items-center">
                 <img
-                  src="./images/CarBasic/icons/icon-black.jpg"
+                  src="./img/CarBasic/icons/icon-black.jpg"
                   alt=""
                   width="50px"
                 />
@@ -40,12 +40,12 @@ export default class BTChonXe extends Component {
               className="btn btn-outline-dark d-block mb-2"
               style={{ width: 300 }}
               onClick={() => {
-                this.changeCar("./images/CarBasic/products/steel-car.jpg");
+                this.changeCar("./img/CarBasic/products/steel-car.jpg");
               }}
             >
               <div className="d-flex align-items-center">
                 <img
-                  src="./images/CarBasic/icons/icon-steel.jpg"
+                  src="./img/CarBasic/icons/icon-steel.jpg"
                   alt=""
                   width="50px"
                 />
@@ -59,12 +59,12 @@ export default class BTChonXe extends Component {
               className="btn btn-outline-dark d-block mb-2"
               style={{ width: 300 }}
               onClick={() => {
-                this.changeCar("./images/CarBasic/products/silver-car.jpg");
+                this.changeCar("./img/CarBasic/products/silver-car.jpg");
               }}
             >
               <div className="d-flex align-items-center">
                 <img
-                  src="./images/CarBasic/icons/icon-silver.jpg"
+                  src="./img/CarBasic/icons/icon-silver.jpg"
                   alt=""
                   width="50px"
                 />
@@ -78,12 +78,12 @@ export default class BTChonXe extends Component {
               className="btn btn-outline-dark d-block mb-2"
               style={{ width: 300 }}
               onClick={() => {
-                this.changeCar("./images/CarBasic/products/red-car.jpg");
+                this.changeCar("./img/CarBasic/products/red-car.jpg");
               }}
             >
               <div className="d-flex align-items-center">
                 <img
-                  src="./images/CarBasic/icons/icon-red.jpg"
+                  src="./img/CarBasic/icons/icon-red.jpg"
                   alt=""
                   width="50px"
                 />

@@ -11,6 +11,10 @@ import StateDemo from "./State/StateDemo";
 import Style from "./StyleDemo/Style";
 import Example from "./State/Example";
 import BTChonXe from "./State/BTChonXe";
+import RenderWithMap from "./renderWithMap/RenderWithMap";
+import DemoProps from "./props/demoProps/DemoProps";
+import DanhSachSanPham from "./props/danhSachSanPham/DanhSachSanPham";
+import BaiTapChonKinh from "./props/BaiTapChonKinh/BaiTapChonKinh";
 
 function App() {
   return (
@@ -25,7 +29,11 @@ function App() {
       {/* <StateDemo /> */}
       {/* <Style /> */}
       {/* <Example /> */}
-      <BTChonXe />
+      {/* <BTChonXe /> */}
+      {/* <RenderWithMap /> */}
+      {/* <DemoProps /> */}
+      {/* <DanhSachSanPham /> */}
+      <BaiTapChonKinh/>
     </div>
   );
 }

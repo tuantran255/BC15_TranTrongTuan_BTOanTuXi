@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import Example2 from "./Example2";
 
 export default class Example extends Component {
-    //Các bước khi giải quyết bài toán react: 
-    /**
-     *  B1: Xây dựng layout hoàn chỉnh
-     *  B2: Phân tích dữ liệu thay đổi (xác định state là gì khi click vào đâu thì giao diện chổ nào thay đổi) xác định kiểu dữ liệu lưu trữ
-     *  B3: Xây dựng xử lý thay đổi state
-     */
+  //Các bước khi giải quyết bài toán react:
+  /**
+   *  B1: Xây dựng layout hoàn chỉnh
+   *  B2: Phân tích dữ liệu thay đổi (xác định state là gì khi click vào đâu thì giao diện chổ nào thay đổi) xác định kiểu dữ liệu lưu trữ
+   *  B3: Xây dựng xử lý thay đổi state
+   */
   state = {
     fSize: 16, //Giá trị thay đổi trên giao diện là fontSize của chữ => fontSize là state
   };
@@ -42,6 +43,8 @@ export default class Example extends Component {
         >
           +
         </button>
+        <h3>Ví dụ 2: Bài tập chọn xe</h3>
+        <Example2 />
       </div>
     );
   }
