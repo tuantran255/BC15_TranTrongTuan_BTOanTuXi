@@ -3,7 +3,8 @@ import React, { Component } from "react";
 export default class SanPham extends Component {
   render() {
     let sanPham = this.props.sanPham;
-    let sp = this.props.sanPham;
+    let xemChiTiet = this.props.hamXemChiTiet;
+    let {themGioHang} = this.props;
     return (
       <div className="card">
         <img src={sanPham.hinhAnh} alt="" height={350} />
@@ -13,10 +14,18 @@ export default class SanPham extends Component {
           <button
             className="btn btn-success"
             onClick={() => {
-              this.xemChiTiet(sanPham);
+              xemChiTiet(sanPham);
             }}
           >
             Xem chi tiết
+          </button>
+          <button
+            className="btn btn-primary ml-3"
+            onClick={() => {
+              themGioHang(sanPham);
+            }}
+          >
+            Thêm giỏ hàng
           </button>
         </div>
       </div>

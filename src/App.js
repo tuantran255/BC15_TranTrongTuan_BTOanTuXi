@@ -15,6 +15,11 @@ import RenderWithMap from "./renderWithMap/RenderWithMap";
 import DemoProps from "./props/demoProps/DemoProps";
 import DanhSachSanPham from "./props/danhSachSanPham/DanhSachSanPham";
 import BaiTapChonKinh from "./props/BaiTapChonKinh/BaiTapChonKinh";
+import BaiTapGioHangRedux from "./DemoRedux/BaiTapGioHangRedux/BaiTapGioHangRedux";
+import BaiTapGameXucXac from "./DemoRedux/BaiTapGameXucXac/BaiTapGameXucXac";
+import BaiTapQuanLyNguoiDung from "./ReactForm/BaiTapQuanLyNguoiDung";
+import Lifecycle from "./Lifecycle/Lifecycle";
+import BaiTapOanTuXi from "./DemoRedux/BaiTapOanTuXi/BaiTapOanTuXi";
 
 function App() {
   return (
@@ -33,7 +38,12 @@ function App() {
       {/* <RenderWithMap /> */}
       {/* <DemoProps /> */}
       {/* <DanhSachSanPham /> */}
-      <BaiTapChonKinh/>
+      {/* <BaiTapChonKinh/> */}
+      {/* <BaiTapGioHangRedux/> */}
+      {/* <BaiTapGameXucXac /> */}
+      {/* <BaiTapQuanLyNguoiDung /> */}
+      {/* <Lifecycle /> */}
+      <BaiTapOanTuXi />
     </div>
   );
 }

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: fontGame;
+  src: url("../../assets/images/gameXucXac/Pony.ttf");
+}
+
+.gameOanTuXi {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/images/bgGameOanTuXi.png");
+  background-size: 100%;
+  font-family: "fontGame";
+}
+
+.playerChoice {
+  position: relative;
+  border: 5px solid #45d994;
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+  background: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.playerChoice img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btnChoice {
+  width: 75px;
+  height: 75px;
+}
+
+.btnChoice img {
+  width: 100%;
+}
+
+.speech-bubble {
+  position: relative;
+  background: #45d994;
+  border-radius: 0.4em;
+}
+
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 35px solid transparent;
+  border-top-color: #45d994;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -17.5px;
+  margin-bottom: -35px;
+}

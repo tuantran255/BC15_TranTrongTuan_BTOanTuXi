@@ -1,0 +1,15 @@
+@font-face {
+  font-family: fontGame;
+  src: url("../../assets/images/gameXucXac/Pony.ttf");
+}
+
+.gameXucXac {
+  background: url("../../assets/images/gameXucXac/bgGame.png");
+  width: 100vw;
+  height: 100vh;
+  font-family: fontGame;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 255, 143, 0.5);
+}
